@@ -1,26 +1,76 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,900');
+body{
+  background: #1e88e5;
+  background-image: url(../img/fondo.jpg);
+  background-size: 173%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
 
 .logo{
-  padding: 10px;
+  padding-top:10px;
 }
 
 .fuente1{
-  ont-family: 'Catamaran', sans-serif;
-  font-weight: 900 !important;
+  font-weight: 600 !important;
 }
 
 .titulo{
-  margin-top: -20px;
+  margin-top: -7px;
+  font-size: 2em!important;
 }
 
-.iconos{
-  font-size: 2em!important;
+.menu{
+  margin:30px 0px 15px 10px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  font-size: 13px !important;
+}
+
+nav{
+  background: none;
+  box-shadow: none;
+}
+
+.articulo{
+  text-align: justify;
 }
 
 img{
   margin-top: 7px;
 }
 
+.comentario{
+  font-size: 2em;
+}
+
+.autor{
+  width: 40%;
+}
+
+.autor-content{
+  margin:30px!important;
+}
+
+.social{
+  width: 100%;
+}
+/*responsive*/
+
+@media (min-width:720px){
+  body{
+    background-size: 100%;
+  }
+
+  .logo{
+    width: 50%;
+  }
+
+  .menu{
+    padding-left: 10px !important;
+    padding-right: 10px !important;;
+  }
 
 
-/*fondo*/
+}
