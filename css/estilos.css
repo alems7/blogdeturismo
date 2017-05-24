@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,900');
+
+.logo{
+  padding: 10px;
+}
+
+.fuente1{
+  ont-family: 'Catamaran', sans-serif;
+  font-weight: 900 !important;
+}
+
+.titulo{
+  margin-top: -20px;
+}
+
+.iconos{
+  font-size: 2em!important;
+}
+
+img{
+  margin-top: 7px;
+}
+
+
+
+/*fondo*/
